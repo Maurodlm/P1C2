@@ -12,5 +12,7 @@ namespace MVCC2.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<MVCC2.Models.Client> Clients { get; set; }
     }
 }
